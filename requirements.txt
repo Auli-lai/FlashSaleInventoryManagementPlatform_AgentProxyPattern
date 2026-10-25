@@ -1,0 +1,9 @@
+# 库存运维中枢 Python 依赖
+# 安装：pip install -r requirements.txt
+numpy
+openai
+jieba
+fastapi
+uvicorn
+# 可选：向量检索用 FAISS 加速（不装也能跑，自动回退 numpy 暴力检索）
+# faiss-cpu
